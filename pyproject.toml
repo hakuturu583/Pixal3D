@@ -48,6 +48,9 @@ find-links = [
     "https://download.pytorch.org/whl/cu124",
 ]
 
+[tool.hatch.metadata]
+allow-direct-references = true
+
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
